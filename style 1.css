@@ -1,64 +1,87 @@
-.head{
-    background-color: gray;
-    display: flex;
-    justify-content: space-between;
-    padding: 2px;
-    margin: 0px 20px;
+
+
+.head {
+    height: 250px; 
     text-align: center;
-}
-.head:hover{
-    background-color:red;
-}
-
-.welcome{
-    display: contents;
-    justify-content: center;
-    color: aqua;
-    padding: 30px 0;
-}
-
-ol{
-    list-style: none;
-}
-.learn{
-    
-    display: contents;
-    flex-direction: row;
-}
-
-.main{
-   display: flex; 
-   flex-direction:column;
-}
-
-.project{
-    color:green;
-    flex:1 
-}
-.project:hover{
-    color:brown
-}
-.image{
     display: flex;
-    width: 400px;
-    flex: 1;
-    padding-left: 100px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW9uJdbYQkOBrj5VMafN1HuADIxjgVxPCJPQ&usqp=CAU');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+      }
+  .welcome{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: x-large;
+    color: brown;
+  }
+header a {
+    text-decoration: none;
+    color: white; 
+    margin-right: 15px; 
+  }
 
+  .main{
+    display: flex; 
+    align-items:right;
+ }
+ .main h1{
+     margin-right: 20px;
+ }
+
+ .project{
+    flex-grow: 1;
+ }
+ .project img{
+     max-width: 100%
+ }
+ 
+ .image{
+   
+    height: auto;
+    max-width: 100%;
+    float: right;
+    padding: 20px;
     }
-.image img{
-    width: 100%
+
+#Us{
+    font-size: large;
+    color: brown;
+}
+#Us:hover{
+    color: aqua;
     
+}
+#value{
+    color: navy;
 }
 .benefits{
-    color: blueviolet;
-    display: flexbox;
-    padding-left: 5px;
-    }
+    display: flex;
+    justify-content: space-evenly;
+}
+ol{
+    list-style: none;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    color: blue;
+   
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+}
+
 .offer{
     padding-left: 5px;
+    color: blueviolet;
 }
 .program{
-    background-color: brown;
+    background-color:blueviolet;
     display: block;
     text-align: left;
 }

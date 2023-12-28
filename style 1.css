@@ -1,94 +1,181 @@
 
+#homePage{
+    background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1lZGljYWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    height:100vh;
+   
+}
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.content{
+    padding: 20px;
+    color: #fff;
+}
 .head {
-    height: 250px; 
+    
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW9uJdbYQkOBrj5VMafN1HuADIxjgVxPCJPQ&usqp=CAU');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+   
       }
+
   .welcome{
     max-width: 800px;
     margin: 0 auto;
     font-size: x-large;
     color: brown;
   }
-header a {
-    text-decoration: none;
-    color: white; 
-    margin-right: 15px; 
-  }
+    
+  
 
   .main{
-    display: flex; 
-    align-items:right;
- }
- .main h1{
-     margin-right: 20px;
- }
-
- .project{
-    flex-grow: 1;
- }
- .project img{
-     max-width: 100%
+   display: flex; 
+   justify-content: space-around;
+      padding: 20px;
+   margin: 10px;
  }
  
- .image{
-   
-    height: auto;
-    max-width: 100%;
-    float: right;
-    padding: 20px;
-    }
+ .main img{
+   height: 90%;    
+    width: 90%;
+ }
 
-#Us{
-    font-size: large;
-    color: brown;
+#nutri{
+    padding:20px;
+    color:#c01616;
+    font-size: larger;
 }
-#Us:hover{
-    color: aqua;
-    
-}
+
 #value{
-    color: navy;
+    color: rgb(30, 128, 0);
 }
+#secondPage{
+    height:100vh;
+    background-color:gray;
+  
+}
+
 .benefits{
     display: flex;
-    justify-content: space-evenly;
-}
+    justify-content: space-around
+    }
+    .benefits img{
+        width: 200px;
+        height: 100px;
+    }
 ol{
-    list-style: none;
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
+    list-style: none;  
     color: blue;
-   
+       
 }
 
 ul{
     list-style: none;
-    padding: 0;
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
+      
 }
 
 .offer{
     padding-left: 5px;
-    color: blueviolet;
+    color: brown;
 }
-.program{
-    background-color:blueviolet;
-    display: block;
-    text-align: left;
+#we{
+    color: aqua;
 }
 
+.program{
+    display: flex;
+    text-align: left;
+    padding: 50px 100px;
+    justify-content: space-around;
+    }
+
+    .program img{
+        width: 200px;
+        height:150px;
+    }
+#thirdPage{
+        height:100vh;
+        background-color: palegreen;
+    }
+ #aboutUs{
+        text-align: center;
+        font-size: large;
+        color: brown;
+        padding-top: 50px;
+    }
+    
+#product{
+    width: 200px;
+    height:80vh;
+   
+}
 .contact{
     color: green;
     font-size: large;
     padding: 25px opx;
 
+}
+#fourthPage{
+    background-color: goldenrod;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

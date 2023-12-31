@@ -1,11 +1,8 @@
 
 #homePage{
-    background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1lZGljYWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww');
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat; 
-    font-family: Arial, sans-serif;
+   
     height:100vh;
+    padding-bottom: 10px;
    
 }
 
@@ -15,53 +12,179 @@ body {
     box-sizing: border-box;
     
 }
-.content{
+header{
+    background-color:rgb(215, 215, 240);
     padding: 20px;
-    color: #fff;
+    color:white
 }
-.head {
+.navbar {
     
-    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
-   
+    justify-content: space-between;
+    
+      }
+      .logo img{
+       max-height: 100px;
       }
 
-  .welcome{
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: x-large;
-    color: brown;
-  }
-    
+    .menu{
+        display: flex;
+       
+        align-items: center;
+    }
+    .menu a{
+        color: #188502;
+        text-decoration: none;
+        padding: 50px;
+    }
+    .menu a:hover{
+        background-color: aqua;
+        cursor: pointer;
+    }
   
+    
 
   .main{
-   display: flex; 
-   justify-content: space-around;
-      padding: 20px;
-   margin: 10px;
+    display: flex;
+   background-image: url('https://images.unsplash.com/photo-1703756292813-419b5c997612?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1M3x8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    height: 80vh;
+    margin-right: auto;
+    padding: 0px;
+    justify-content: space-between;
  }
  
  .main img{
-   height: 90%;    
-    width: 90%;
+   height: 75vh;    
+    width: 60vw;
+    padding: 10px;
+   
+  
  }
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    width: 80vw;
+    height: 80vh;
+}
 
-#nutri{
-    padding:20px;
-    color:#c01616;
-    font-size: larger;
+.register-form {
+    background-color: #8e8ce4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+#secondpage{
+height: 100vh;
+background-color: palegreen ;
+padding-bottom: 20px;
+}
+
+#aboutUs{
+    text-align: center;
+    font-size: large;
+    color: rgb(255, 0, 55);
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.program{
+    display: flex;
+    text-align: left;
+    padding: 50px 100px;
+    justify-content: space-around;
+    }
+
+    .program img{
+        width:200px;
+        height:150px;
+        
+    }
+    
+#product{
+width: 200px;
+height:80vh;
+
+}
+.offer{
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    }
+#we{
+    margin-left: 30%;
+    color: goldenrod;
+}
+.contact{
+color: green;
+font-size: large;
+padding: 25px opx;
+
+}
+
+
+
+icons :hover{
+    background-color: #188502;
 }
 
 #value{
     color: rgb(30, 128, 0);
 }
-#secondPage{
+#thirdpage{
     height:100vh;
     background-color:gray;
   
+}
+#nutri{
+    padding:20px;
+    color:#188502;
+    font-size: larger;
+    padding: 10px 0
 }
 
 .benefits{
@@ -83,50 +206,16 @@ ul{
       
 }
 
-.offer{
-    padding-left: 5px;
-    color: brown;
-}
-#we{
-    color: aqua;
-}
 
-.program{
-    display: flex;
-    text-align: left;
-    padding: 50px 100px;
-    justify-content: space-around;
-    }
 
-    .program img{
-        width: 200px;
-        height:150px;
-    }
-#thirdPage{
-        height:100vh;
-        background-color: palegreen;
-    }
- #aboutUs{
-        text-align: center;
-        font-size: large;
-        color: brown;
-        padding-top: 50px;
-    }
-    
-#product{
-    width: 200px;
-    height:80vh;
-   
-}
-.contact{
-    color: green;
-    font-size: large;
-    padding: 25px opx;
-
-}
 #fourthPage{
-    background-color: goldenrod;
+    background-color: rgb(87, 86, 83);
     height: 100vh;
+    padding-left: 20px;
+}
+
+#donate{
+    
 }
 
 
@@ -134,48 +223,3 @@ ul{
 
 
 
-
-
-.login-container {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    text-align: center;
-}
-
-.login-container h2 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.login-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.form-group input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-.form-group button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}

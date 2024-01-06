@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style 1.css">
+
+</head>
+<body>
+    <header>
+        <h1>Donate Now</h1>
+    </header>
+
+    <section id="don">
+        <form action="your_server_side_script.php" method="post">
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" placeholder="Enter the amount" required>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Additional Message (optional):</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+
+            <button type="submit">Donate Now</button>
+        </form>
+
+   </section>
+   <section>
+    <div class="hours">
+        <h1>Working Hours</h1>
+        <table>
+           <tr bgcolor="blue" align="center" width="600">
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+           </tr>
+
+            <tr bgcolor="brown" align="center">
+                <td>8-5</td>
+                <td>8-5</td>
+                <td>8-5</td>
+                <td>8-5</td>
+                <td>8-5</td>
+                <td>closed</td>
+            </tr>
+        </table>
+    </div>
+</section> 
+   <a href="./index.html"><p>Home</p></a>
+</body>
+</html>
